@@ -7,13 +7,13 @@ class Solution {
             }
         }
         int[] answer = new int[count];
-        // 1. answer 배열의 인덱스를 관리할 변수 추가
+        // answer 배열의 인덱스를 관리할 변수 추가
         int idx = 0; 
         for(int i = 1; i <= n; i++) {
             if(i % 2 != 0) {
-                // 2. i가 아닌 idx를 인덱스로 사용
+                // i가 아닌 idx를 인덱스로 사용
                 answer[idx] = i;
-                // 3. 인덱스를 1 증가시켜 다음 칸을 가리키게 함
+                // 인덱스를 1 증가시켜 다음 칸을 가리키게 함
                 idx++; 
             }
         }
