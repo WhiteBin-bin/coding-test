@@ -5,9 +5,9 @@ class Solution {
         
         ArrayList<Integer> tmpList = new ArrayList<>();
         
-        for(int i = 2; i <= n; i++) {
-            if(n % i == 0) {
-                while(n % i == 0) {
+        for (int i = 2; i <= n; i++) {
+            if (n % i == 0) {
+                while (n % i == 0) {
                     n /= i;
                 }
                 tmpList.add(i);
@@ -15,7 +15,7 @@ class Solution {
         }
         
         int[] answer = new int[tmpList.size()];
-        for(int i = 0; i < answer.length; i++) {
+        for (int i = 0; i < answer.length; i++) {
             answer[i] = tmpList.get(i);
         }
         return answer;
