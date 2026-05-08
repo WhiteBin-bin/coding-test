@@ -19,6 +19,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0088-merge-sorted-array](https://github.com/WhiteBin-bin/coding-test/tree/main/0088-merge-sorted-array/) | Easy |
 | [0125-valid-palindrome](https://github.com/WhiteBin-bin/coding-test/tree/main/0125-valid-palindrome/) | Easy |
 | [0141-linked-list-cycle](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
+| [0160-intersection-of-two-linked-lists](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0283-move-zeroes](https://github.com/WhiteBin-bin/coding-test/tree/main/0283-move-zeroes/) | Easy |
 | [0344-reverse-string](https://github.com/WhiteBin-bin/coding-test/tree/main/0344-reverse-string/) | Easy |
 ## Sorting
@@ -39,8 +40,10 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
+| [0160-intersection-of-two-linked-lists](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
+| [0160-intersection-of-two-linked-lists](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 <!---LeetCode Topics End-->
