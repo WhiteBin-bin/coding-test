@@ -11,6 +11,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0088-merge-sorted-array](https://github.com/WhiteBin-bin/coding-test/tree/main/0088-merge-sorted-array/) | Easy |
 | [0283-move-zeroes](https://github.com/WhiteBin-bin/coding-test/tree/main/0283-move-zeroes/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -27,11 +28,13 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0344-reverse-string](https://github.com/WhiteBin-bin/coding-test/tree/main/0344-reverse-string/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0088-merge-sorted-array](https://github.com/WhiteBin-bin/coding-test/tree/main/0088-merge-sorted-array/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -50,6 +53,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0160-intersection-of-two-linked-lists](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0202-happy-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -72,4 +76,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 <!---LeetCode Topics End-->
