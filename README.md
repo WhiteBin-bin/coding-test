@@ -77,4 +77,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
 <!---LeetCode Topics End-->
