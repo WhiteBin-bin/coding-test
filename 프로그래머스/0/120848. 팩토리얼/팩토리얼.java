@@ -5,9 +5,9 @@ class Solution {
         int num = 1;
         int k = 1;
         
-        while(true) {
+        while (true) {
             num *= k;
-            if(num > n) {
+            if (num > n) {
                 answer = k;
                 break;
             }
