@@ -61,6 +61,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0141-linked-list-cycle](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0160-intersection-of-two-linked-lists/) | Easy |
 | [0203-remove-linked-list-elements](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0203-remove-linked-list-elements/) | Easy |
+| [0206-reverse-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 ## Math
 | Problem Name | Difficulty |
@@ -75,6 +76,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0203-remove-linked-list-elements](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0203-remove-linked-list-elements/) | Easy |
+| [0206-reverse-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
