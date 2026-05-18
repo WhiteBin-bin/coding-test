@@ -12,6 +12,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0283-move-zeroes](https://github.com/WhiteBin-bin/coding-test/tree/main/0283-move-zeroes/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0455-assign-cookies](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
 | [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/3483-unique-3-digit-even-numbers/) | Easy |
 ## Two Pointers
@@ -32,12 +33,14 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0392-is-subsequence](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [0455-assign-cookies](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0088-merge-sorted-array](https://github.com/WhiteBin-bin/coding-test/tree/main/0088-merge-sorted-array/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0455-assign-cookies](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
 | [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -131,4 +134,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3304-find-the-k-th-character-in-string-game-i](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/3304-find-the-k-th-character-in-string-game-i/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
 <!---LeetCode Topics End-->
