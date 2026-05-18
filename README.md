@@ -70,6 +70,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0326-power-of-three](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
+| [0509-fibonacci-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -84,6 +85,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0234-palindrome-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0326-power-of-three](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
+| [0509-fibonacci-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -99,4 +101,12 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0342-power-of-four](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0509-fibonacci-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 <!---LeetCode Topics End-->
