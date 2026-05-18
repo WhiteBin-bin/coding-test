@@ -67,6 +67,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0202-happy-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
+| [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -77,6 +78,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0021-merge-two-sorted-lists](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0021-merge-two-sorted-lists/) | Easy |
 | [0203-remove-linked-list-elements](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0203-remove-linked-list-elements/) | Easy |
 | [0206-reverse-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0206-reverse-linked-list/) | Easy |
+| [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -88,4 +90,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0197-rising-temperature](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0197-rising-temperature/) | Easy |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 <!---LeetCode Topics End-->
