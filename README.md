@@ -12,6 +12,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0283-move-zeroes](https://github.com/WhiteBin-bin/coding-test/tree/main/0283-move-zeroes/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -35,6 +36,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0088-merge-sorted-array](https://github.com/WhiteBin-bin/coding-test/tree/main/0088-merge-sorted-array/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,6 +56,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0202-happy-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -86,6 +89,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0326-power-of-three](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
 | [0509-fibonacci-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
+| [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -109,4 +113,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0509-fibonacci-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
 <!---LeetCode Topics End-->
