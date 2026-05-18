@@ -69,6 +69,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0202-happy-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0326-power-of-three](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
+| [0342-power-of-four](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -82,6 +83,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0326-power-of-three](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
+| [0342-power-of-four](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -96,4 +98,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+| [0342-power-of-four](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
 <!---LeetCode Topics End-->
