@@ -14,6 +14,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0455-assign-cookies](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
 | [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
+| [2540-minimum-common-value](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/3483-unique-3-digit-even-numbers/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -34,6 +35,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0392-is-subsequence](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0455-assign-cookies](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
+| [2540-minimum-common-value](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -63,6 +65,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [2094-finding-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2094-finding-3-digit-even-numbers/) | Easy |
+| [2540-minimum-common-value](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [3483-unique-3-digit-even-numbers](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/3483-unique-3-digit-even-numbers/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
@@ -105,6 +108,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [2540-minimum-common-value](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
