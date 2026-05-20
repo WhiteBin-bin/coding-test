@@ -8,6 +8,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/WhiteBin-bin/coding-test/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/WhiteBin-bin/coding-test/tree/main/0027-remove-element/) | Easy |
+| [0046-permutations](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 | [0088-merge-sorted-array](https://github.com/WhiteBin-bin/coding-test/tree/main/0088-merge-sorted-array/) | Easy |
 | [0283-move-zeroes](https://github.com/WhiteBin-bin/coding-test/tree/main/0283-move-zeroes/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
@@ -142,4 +143,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0455-assign-cookies/) | Easy |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0046-permutations](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 <!---LeetCode Topics End-->
