@@ -48,6 +48,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/WhiteBin-bin/coding-test/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0125-valid-palindrome](https://github.com/WhiteBin-bin/coding-test/tree/main/0125-valid-palindrome/) | Easy |
 | [0344-reverse-string](https://github.com/WhiteBin-bin/coding-test/tree/main/0344-reverse-string/) | Easy |
@@ -127,6 +128,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0392-is-subsequence](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0509-fibonacci-number](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 ## Memoization
@@ -149,5 +151,6 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0046-permutations](https://github.com/WhiteBin-bin/coding-test/tree/main/LeetCode/Medium/0046-permutations/) | Medium |
 <!---LeetCode Topics End-->
