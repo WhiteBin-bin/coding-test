@@ -2,8 +2,8 @@ import java.util.*;
 
 class Solution {
 
-    private final int[] dx = {-1, 1, 0, 0};
-    private final int[] dy = {0, 0, -1, 1};
+    static int[] dx = {-1, 1, 0, 0};
+    static int[] dy = {0, 0, -1, 1};
 
     public int solution(int[][] maps) {
         int n = maps.length;
