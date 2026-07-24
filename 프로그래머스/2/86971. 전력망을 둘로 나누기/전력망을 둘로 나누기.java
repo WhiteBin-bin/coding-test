@@ -1,48 +1,60 @@
-import java.util.*;
-
 class Solution {
+
+    private int[] parent;
+
     public int solution(int n, int[][] wires) {
         int answer = n;
 
-        for (int i = 0; i < wires.length; i++) {
-            List<Integer>[] graph = new ArrayList[n + 1];
+        for (int cut = 0; cut < wires.length; cut++) {
+            parent = new int[n + 1];
 
-            for (int j = 1; j <= n; j++) {
-                graph[j] = new ArrayList<>();
+            for (int i = 1; i <= n; i++) {
+                parent[i] = i;
             }
 
-            for (int j = 0; j < wires.length; j++) {
-                if (i == j) continue;
+            for (int i = 0; i < wires.length; i++) {
+                if (i == cut) {
+                    continue;
+                }
 
-                int a = wires[j][0];
-                int b = wires[j][1];
+                int a = wires[i][0];
+                int b = wires[i][1];
 
-                graph[a].add(b);
-                graph[b].add(a);
+                union(a, b);
             }
 
-            boolean[] visited = new boolean[n + 1];
+            int count = 0;
+            int root = find(1);
 
-            int count = dfs(1, graph, visited);
+            for (int i = 1; i <= n; i++) {
+                if (find(i) == root) {
+                    count++;
+                }
+            }
+
             int other = n - count;
-
             answer = Math.min(answer, Math.abs(count - other));
         }
 
         return answer;
     }
 
-    private int dfs(int node, List<Integer>[] graph, boolean[] visited) {
-        visited[node] = true;
-
-        int count = 1;
-
-        for (int next : graph[node]) {
-            if (!visited[next]) {
-                count += dfs(next, graph, visited);
-            }
+    private int find(int x) {
+        if (parent[x] != x) {
+            parent[x] = find(parent[x]);
         }
 
-        return count;
+        return parent[x];
+    }
+
+    private void union(int a, int b) {
+        int rootA = find(a);
+        int rootB = find(b);
+
+        if (rootA == rootB) {
+            return;
+        }
+
+        parent[rootB] = rootA;
     }
 }
