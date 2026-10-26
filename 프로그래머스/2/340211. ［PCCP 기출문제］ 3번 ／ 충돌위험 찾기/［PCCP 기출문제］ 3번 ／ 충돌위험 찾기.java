@@ -54,13 +54,11 @@ class Solution {
                     anyRobotLeft = true;
                 }
             }
-            
-            // 모든 로봇이 운송을 마치고 탈출했다면 무한루프를 종료합니다.
+
             if (!anyRobotLeft) {
                 break;
             }
             
-            // 3단계: 한 좌표에 2대 이상의 로봇이 모여있다면 위험 상황 카운트를 올려줍니다.
             for (int count : positionMap.values()) {
                 if (count >= 2) {
                     dangerCount++;
