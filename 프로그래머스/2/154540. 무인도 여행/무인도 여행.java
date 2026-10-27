@@ -12,15 +12,14 @@ class Solution {
         int c = maps[0].length();
 
         boolean[][] visited = new boolean[r][c];
-
         List<Integer> result = new ArrayList<>();
 
         for (int i = 0; i < r; i++) {
-            
+
             for (int j = 0; j < c; j++) {
 
                 if (maps[i].charAt(j) != 'X' && !visited[i][j]) {
-                    
+
                     int sum = bfsIsland(maps, visited, i, j);
 
                     result.add(sum);
@@ -82,6 +81,7 @@ class Solution {
                 }
 
                 visited[nx][ny] = true;
+
                 que.offer(new int[]{nx, ny});
             }
         }
