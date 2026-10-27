@@ -2,25 +2,27 @@ import java.util.*;
 
 class Solution {
 
-    static int n, m;
-    static boolean[][] visited;
-
-    static int[] dx = {-1, 1, 0, 0};
-    static int[] dy = {0, 0, -1, 1};
-
     public int[] solution(String[] maps) {
-        n = maps.length;
-        m = maps[0].length();
+        return bfs(maps);
+    }
 
-        visited = new boolean[n][m];
+    private int[] bfs(String[] maps) {
+
+        int r = maps.length;
+        int c = maps[0].length();
+
+        boolean[][] visited = new boolean[r][c];
 
         List<Integer> result = new ArrayList<>();
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+        for (int i = 0; i < r; i++) {
+            
+            for (int j = 0; j < c; j++) {
 
                 if (maps[i].charAt(j) != 'X' && !visited[i][j]) {
-                    int sum = dfs(i, j, maps);
+                    
+                    int sum = bfsIsland(maps, visited, i, j);
+
                     result.add(sum);
                 }
             }
@@ -32,37 +34,56 @@ class Solution {
 
         Collections.sort(result);
 
-        int[] answer = new int[result.size()];
-
-        for (int i = 0; i < result.size(); i++) {
-            answer[i] = result.get(i);
-        }
-
-        return answer;
+        return result.stream()
+                     .mapToInt(Integer::intValue)
+                     .toArray();
     }
 
-    private int dfs(int x, int y, String[] maps) {
-        visited[x][y] = true;
+    private int bfsIsland(String[] maps, boolean[][] visited,
+                          int startX, int startY) {
 
-        int sum = maps[x].charAt(y) - '0';
+        int r = maps.length;
+        int c = maps[0].length();
 
-        for (int i = 0; i < 4; i++) {
-            int nx = x + dx[i];
-            int ny = y + dy[i];
+        int[] dx = {-1, 1, 0, 0};
+        int[] dy = {0, 0, -1, 1};
 
-            if (nx < 0 || nx >= n || ny < 0 || ny >= m) {
-                continue;
+        Queue<int[]> que = new ArrayDeque<>();
+
+        que.offer(new int[]{startX, startY});
+        visited[startX][startY] = true;
+
+        int sum = 0;
+
+        while (!que.isEmpty()) {
+
+            int[] current = que.poll();
+
+            int x = current[0];
+            int y = current[1];
+
+            sum += maps[x].charAt(y) - '0';
+
+            for (int i = 0; i < 4; i++) {
+
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+
+                if (nx < 0 || ny < 0 || nx >= r || ny >= c) {
+                    continue;
+                }
+
+                if (maps[nx].charAt(ny) == 'X') {
+                    continue;
+                }
+
+                if (visited[nx][ny]) {
+                    continue;
+                }
+
+                visited[nx][ny] = true;
+                que.offer(new int[]{nx, ny});
             }
-
-            if (maps[nx].charAt(ny) == 'X') {
-                continue;
-            }
-
-            if (visited[nx][ny]) {
-                continue;
-            }
-
-            sum += dfs(nx, ny, maps);
         }
 
         return sum;
