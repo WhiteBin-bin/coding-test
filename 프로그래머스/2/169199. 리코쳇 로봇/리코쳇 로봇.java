@@ -2,47 +2,40 @@ import java.util.*;
 
 class Solution {
     public int solution(String[] board) {
-        int row = board.length;
-        int col = board[0].length();
+        int r = board.length;
+        int c = board[0].length();
+        int[] start = new int[2];
 
-        boolean[][] visited = new boolean[row][col];
-
-        int startX = 0;
-        int startY = 0;
-
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
                 if (board[i].charAt(j) == 'R') {
-                    startX = i;
-                    startY = j;
+                    start = new int[]{i, j};
                 }
             }
         }
 
-        return bfs(board, visited, startX, startY);
+        return bfs(board, start);
     }
 
-    private int bfs(String[] board, boolean[][] visited, int startX, int startY) {
-        Queue<int[]> queue = new LinkedList<>();
+    private int bfs(String[] board, int[] start) {
 
-        int row = board.length;
-        int col = board[0].length();
-
+        int r = board.length;
+        int c = board[0].length();
         int[] dx = {-1, 1, 0, 0};
         int[] dy = {0, 0, -1, 1};
+        int[][] distance = new int[r][c];
 
-        queue.offer(new int[]{startX, startY, 0});
-        visited[startX][startY] = true;
+        Queue<int[]> que = new LinkedList<>();
+        que.offer(new int[]{start[0], start[1]});
+        distance[start[0]][start[1]] = 1;
 
-        while (!queue.isEmpty()) {
-            int[] current = queue.poll();
-
+        while (!que.isEmpty()) {
+            int[] current = que.poll();
             int x = current[0];
             int y = current[1];
-            int count = current[2];
 
             if (board[x].charAt(y) == 'G') {
-                return count;
+                return distance[x][y] - 1;
             }
 
             for (int i = 0; i < 4; i++) {
@@ -53,7 +46,7 @@ class Solution {
                     int nextX = nx + dx[i];
                     int nextY = ny + dy[i];
 
-                    if (nextX < 0 || nextX >= row || nextY < 0 || nextY >= col) {
+                    if (nextX < 0 || nextY < 0 || nextX >= r || nextY >= c) {
                         break;
                     }
 
@@ -65,10 +58,12 @@ class Solution {
                     ny = nextY;
                 }
 
-                if (!visited[nx][ny]) {
-                    visited[nx][ny] = true;
-                    queue.offer(new int[]{nx, ny, count + 1});
+                if (distance[nx][ny] != 0) {
+                    continue;
                 }
+
+                distance[nx][ny] = distance[x][y] + 1;
+                que.offer(new int[]{nx, ny});
             }
         }
 
