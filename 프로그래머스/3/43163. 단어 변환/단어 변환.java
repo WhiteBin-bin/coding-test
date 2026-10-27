@@ -1,56 +1,66 @@
 import java.util.*;
 
 class Solution {
-
     public int solution(String begin, String target, String[] words) {
-
+        
+        return bfs(begin, target, words);
+    }
+    
+    private int bfs(String begin, String target, String[] words) {
+        
         boolean[] visited = new boolean[words.length];
-        Queue<Word> queue = new LinkedList<>();
-
-        queue.add(new Word(begin, 0));
-
-        while (!queue.isEmpty()) {
-
-            Word cur = queue.poll();
-
-            for (int i = 0; i < words.length; i++) {
-
-                if (!visited[i] && canChange(cur.word, words[i])) {
-
-                    if (words[i].equals(target)) {
-                        return cur.depth + 1;
+        
+        Queue<String> que = new ArrayDeque<>();
+        
+        que.offer(begin);
+        
+        int count = 0;
+        
+        while (!que.isEmpty()) {
+            
+            int size = que.size();
+            
+            for (int i = 0; i < size; i++) {
+                
+                String current = que.poll();
+                
+                if (current.equals(target)) {
+                    return count;
+                }
+                
+                for (int j = 0; j < words.length; j++) {
+                    
+                    if (visited[j]) {
+                        continue;
                     }
-
-                    visited[i] = true;
-                    queue.add(new Word(words[i], cur.depth + 1));
+                    
+                    if (!canChange(current, words[j])) {
+                        continue;
+                    }
+                    
+                    visited[j] = true;
+                    que.offer(words[j]);
                 }
             }
+            
+            count++;
         }
-
+        
         return 0;
     }
-
+    
     private boolean canChange(String current, String next) {
 
-        int diff = 0;
+        int count = 0;
 
         for (int i = 0; i < current.length(); i++) {
 
             if (current.charAt(i) != next.charAt(i)) {
-                diff++;
+                count++;
             }
         }
 
-        return diff == 1;
+        return count == 1;
     }
-
-    class Word {
-        String word;
-        int depth;
-
-        Word(String word, int depth) {
-            this.word = word;
-            this.depth = depth;
-        }
-    }
+    
 }
