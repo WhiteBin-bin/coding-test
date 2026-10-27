@@ -10,7 +10,6 @@ class Solution {
         dfs("");
         
         return list.indexOf(word) + 1;
-        
     }
     
     private void dfs(String str) {
