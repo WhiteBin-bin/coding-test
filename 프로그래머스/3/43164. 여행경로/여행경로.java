@@ -2,55 +2,54 @@ import java.util.*;
 
 class Solution {
 
-    private String[][] tickets;
-    private boolean[] used;
-    private List<String> route;
-
     public String[] solution(String[][] tickets) {
-        
-        Arrays.sort(tickets, (ticket1, ticket2) -> {
-            return ticket1[1].compareTo(ticket2[1]);
+
+        boolean[] visited = new boolean[tickets.length];
+        List<String> path = new ArrayList<>();
+
+        Arrays.sort(tickets, (a, b) -> {
+            int compare = a[0].compareTo(b[0]);
+
+            if (compare == 0) {
+                return a[1].compareTo(b[1]);
+            }
+
+            return compare;
         });
 
-        this.tickets = tickets;
-        this.used = new boolean[tickets.length];
-        this.route = new ArrayList<>();
+        path.add("ICN");
 
-        route.add("ICN");
+        dfs("ICN", tickets, visited, path, 0);
 
-        dfs("ICN", 0);
-
-        return route.toArray(new String[0]);
+        return path.toArray(new String[0]);
     }
 
-    private boolean dfs(String currentAirport, int usedTicketCount) {
+    private boolean dfs(String current, String[][] tickets,
+                        boolean[] visited, List<String> path, int count) {
 
-        if (usedTicketCount == tickets.length) {
+        if (count == tickets.length) {
             return true;
         }
 
         for (int i = 0; i < tickets.length; i++) {
 
-            if (used[i]) {
+            if (visited[i]) {
                 continue;
             }
 
-
-            if (!tickets[i][0].equals(currentAirport)) {
+            if (!tickets[i][0].equals(current)) {
                 continue;
             }
 
-            used[i] = true;
-            route.add(tickets[i][1]);
+            visited[i] = true;
+            path.add(tickets[i][1]);
 
-            boolean found = dfs(tickets[i][1], usedTicketCount + 1);
-
-            if (found) {
+            if (dfs(tickets[i][1], tickets, visited, path, count + 1)) {
                 return true;
             }
 
-            used[i] = false;
-            route.remove(route.size() - 1);
+            path.remove(path.size() - 1);
+            visited[i] = false;
         }
 
         return false;
