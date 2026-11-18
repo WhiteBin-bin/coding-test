@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+
+        for (int tc = 1; tc <= T; tc++) {
+            
+            int max = 0;
+            int min = 10000;
+            int sum = 0;
+            
+            for (int i = 0; i < 10; i++) {
+                int num = sc.nextInt();
+                sum += num;
+                max = Math.max(max, num);
+                min = Math.min(min, num);
+            }
+
+            int midSum = sum - max - min;
+            long average = Math.round(midSum / 8.0);
+
+            System.out.println("#" + tc + " " + average);
+        }
+    }
+}
